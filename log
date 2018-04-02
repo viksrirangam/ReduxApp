@@ -1,0 +1,270 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Users\vamshi\Desktop\App> npm install
+
+> spawn-sync@1.0.15 postinstall C:\Users\vamshi\Desktop\App\node_modules\spawn-sync
+> node postinstall
+
+npm WARN minimal-react-webpack-babel-setup@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1002 packages from 610 contributors in 292.499s
+PS C:\Users\vamshi\Desktop\App> npm test
+
+> minimal-react-webpack-babel-setup@1.0.0 test C:\Users\vamshi\Desktop\App
+> echo "No test specified" && exit 0
+
+"No test specified"
+PS C:\Users\vamshi\Desktop\App> npm start
+
+> minimal-react-webpack-babel-setup@1.0.0 start C:\Users\vamshi\Desktop\App
+> webpack-dev-server --config ./webpack.config.js --mode development
+
+(node:9340) DeprecationWarning: Tapable.plugin is deprecated. Use new API on `.hooks` instead
+i ｢wds｣: Project is running at http://localhost:8080/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: Content not from webpack is served from ./dist
+i ｢wdm｣: wait until bundle finished: /
+i ｢wdm｣: Hash: d08201f4fa6bd6a0cb92
+Version: webpack 4.0.1
+Time: 30324ms
+Built at: 2018-3-25 20:12:10
+    Asset      Size  Chunks                    Chunk Names
+bundle.js  1.18 MiB    main  [emitted]  [big]  main
+Entrypoint main [big] = bundle.js
+[./node_modules/loglevel/lib/loglevel.js] 7.68 KiB {main} [built]
+[./node_modules/react-hot-loader/lib/patch.js] 209 bytes {main} [built]
+[./node_modules/react-hot-loader/patch.js] 40 bytes {main} [built]
+[./node_modules/react/index.js] 190 bytes {main} [built]
+[./node_modules/strip-ansi/index.js] 161 bytes {main} [built]
+[./node_modules/url/url.js] 22.8 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:8080] (webpack)-dev-server/client?http://localhost:8080 7.75
+KiB {main} [built]
+[./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.05 KiB {main} [built]
+   [0] multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server react-hot-loader/patch ./src/index.js 64 bytes {main} [built]
+[./node_modules/webpack/hot sync ^\.\/log$] (webpack)/hot sync nonrecursive ^\.\/log$ 170 bytes {main} [built]
+[./node_modules/webpack/hot/dev-server.js] (webpack)/hot/dev-server.js 1.66 KiB {main} [built]
+[./node_modules/webpack/hot/emitter.js] (webpack)/hot/emitter.js 77 bytes {main} [built]
+[./node_modules/webpack/hot/log-apply-result.js] (webpack)/hot/log-apply-result.js 1.31 KiB {main} [built]
+[./node_modules/webpack/hot/log.js] (webpack)/hot/log.js 1.03 KiB {main} [built]
+[./src/index.js] 475 bytes {main} [built]
+    + 191 hidden modules
+i ｢wdm｣: Compiled successfully.
+i ｢wdm｣: Compiling...
+i ｢wdm｣: Hash: 0f956046c3d19923d878
+Version: webpack 4.0.1
+Time: 11244ms
+Built at: 2018-3-25 20:13:13
+                                  Asset       Size  Chunks                    Chunk Names
+                              bundle.js   1.18 MiB    main  [emitted]  [big]  main
+main.d08201f4fa6bd6a0cb92.hot-update.js  866 bytes    main  [emitted]         main
+   d08201f4fa6bd6a0cb92.hot-update.json   46 bytes          [emitted]
+Entrypoint main [big] = bundle.js main.d08201f4fa6bd6a0cb92.hot-update.js
+[./src/index.js] 450 bytes {main} [built]
+    + 205 hidden modules
+i ｢wdm｣: Compiled successfully.
+i ｢wdm｣: Compiling...
+i ｢wdm｣: Hash: 406adfff4b7d8f4cc1e1
+Version: webpack 4.0.1
+Time: 11252ms
+Built at: 2018-3-25 20:13:27
+                                  Asset       Size  Chunks                    Chunk Names
+                              bundle.js   1.18 MiB    main  [emitted]  [big]  main
+main.0f956046c3d19923d878.hot-update.js  891 bytes    main  [emitted]         main
+   0f956046c3d19923d878.hot-update.json   46 bytes          [emitted]
+Entrypoint main [big] = bundle.js main.0f956046c3d19923d878.hot-update.js
+[./src/index.js] 475 bytes {main} [built]
+    + 205 hidden modules
+i ｢wdm｣: Compiled successfully.
+i ｢wdm｣: Compiling...
+i ｢wdm｣: Hash: 45cc0caab691fc42530b
+Version: webpack 4.0.1
+Time: 11215ms
+Built at: 2018-3-25 20:14:31
+                                  Asset       Size  Chunks                    Chunk Names
+                              bundle.js   1.18 MiB    main  [emitted]  [big]  main
+main.406adfff4b7d8f4cc1e1.hot-update.js  866 bytes    main  [emitted]         main
+   406adfff4b7d8f4cc1e1.hot-update.json   46 bytes          [emitted]
+Entrypoint main [big] = bundle.js main.406adfff4b7d8f4cc1e1.hot-update.js
+[./src/index.js] 450 bytes {main} [built]
+    + 205 hidden modules
+i ｢wdm｣: Compiled successfully.
+Terminate batch job (Y/N)? y
+PS C:\Users\vamshi\Desktop\App> git init
+Initialized empty Git repository in C:/Users/vamshi/Desktop/App/.git/
+PS C:\Users\vamshi\Desktop\App> git commit
+On branch master
+
+Initial commit
+
+Untracked files:
+        .babelrc
+        .gitignore
+        .travis.yml
+        README.md
+        dist/
+        package-lock.json
+        package.json
+        src/
+        webpack.config.js
+
+nothing added to commit but untracked files present
+PS C:\Users\vamshi\Desktop\App> npm install --save redux
+npm WARN minimal-react-webpack-babel-setup@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ redux@3.7.2
+added 3 packages from 3 contributors in 90.815s
+PS C:\Users\vamshi\Desktop\App> npm install --save react-redux
+npm WARN minimal-react-webpack-babel-setup@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ react-redux@5.0.7
+added 2 packages from 2 contributors in 57.661s
+PS C:\Users\vamshi\Desktop\App> npm start
+
+> minimal-react-webpack-babel-setup@1.0.0 start C:\Users\vamshi\Desktop\App
+> webpack-dev-server --config ./webpack.config.js --mode development
+
+(node:1476) DeprecationWarning: Tapable.plugin is deprecated. Use new API on `.hooks` instead
+i ｢wds｣: Project is running at http://localhost:8080/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: Content not from webpack is served from ./dist
+i ｢wdm｣: Hash: ec87a2259fcf7a82dc82
+Version: webpack 4.0.1
+Time: 15515ms
+Built at: 2018-3-25 20:33:07
+    Asset      Size  Chunks                    Chunk Names
+bundle.js  1.18 MiB    main  [emitted]  [big]  main
+Entrypoint main [big] = bundle.js
+[./node_modules/loglevel/lib/loglevel.js] 7.68 KiB {main} [built]
+[./node_modules/react-hot-loader/lib/patch.js] 209 bytes {main} [built]
+[./node_modules/react-hot-loader/patch.js] 40 bytes {main} [built]
+[./node_modules/react/index.js] 190 bytes {main} [built]
+[./node_modules/strip-ansi/index.js] 161 bytes {main} [built]
+[./node_modules/url/url.js] 22.8 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:8080] (webpack)-dev-server/client?http://localhost:8080 7.75
+KiB {main} [built]
+[./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.05 KiB {main} [built]
+   [0] multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server react-hot-loader/patch ./src/index.js 64 bytes {main} [built]
+[./node_modules/webpack/hot sync ^\.\/log$] (webpack)/hot sync nonrecursive ^\.\/log$ 170 bytes {main} [built]
+[./node_modules/webpack/hot/dev-server.js] (webpack)/hot/dev-server.js 1.66 KiB {main} [built]
+[./node_modules/webpack/hot/emitter.js] (webpack)/hot/emitter.js 77 bytes {main} [built]
+[./node_modules/webpack/hot/log-apply-result.js] (webpack)/hot/log-apply-result.js 1.31 KiB {main} [built]
+[./node_modules/webpack/hot/log.js] (webpack)/hot/log.js 1.03 KiB {main} [built]
+[./src/index.js] 450 bytes {main} [built]
+    + 191 hidden modules
+i ｢wdm｣: Compiled successfully.
+Terminate batch job (Y/N)? y
+PS C:\Users\vamshi\Desktop\App> npm start
+
+> minimal-react-webpack-babel-setup@1.0.0 start C:\Users\vamshi\Desktop\App
+> webpack-dev-server --config ./webpack.config.js --mode development
+
+(node:9264) DeprecationWarning: Tapable.plugin is deprecated. Use new API on `.hooks` instead
+i ｢wds｣: Project is running at http://localhost:8080/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: Content not from webpack is served from ./dist
+i ｢wdm｣: Hash: 0721e9344209d6ab1ef2
+Version: webpack 4.0.1
+Time: 15485ms
+Built at: 2018-3-25 20:48:03
+    Asset      Size  Chunks                    Chunk Names
+bundle.js  1.18 MiB    main  [emitted]  [big]  main
+Entrypoint main [big] = bundle.js
+[./node_modules/loglevel/lib/loglevel.js] 7.68 KiB {main} [built]
+[./node_modules/react-hot-loader/lib/patch.js] 209 bytes {main} [built]
+[./node_modules/react-hot-loader/patch.js] 40 bytes {main} [built]
+[./node_modules/react/index.js] 190 bytes {main} [built]
+[./node_modules/strip-ansi/index.js] 161 bytes {main} [built]
+[./node_modules/url/url.js] 22.8 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:8080] (webpack)-dev-server/client?http://localhost:8080 7.75
+KiB {main} [built]
+[./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.05 KiB {main} [built]
+   [0] multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server react-hot-loader/patch ./src/index.js 64 bytes {main} [built]
+[./node_modules/webpack/hot sync ^\.\/log$] (webpack)/hot sync nonrecursive ^\.\/log$ 170 bytes {main} [built]
+[./node_modules/webpack/hot/dev-server.js] (webpack)/hot/dev-server.js 1.66 KiB {main} [built]
+[./node_modules/webpack/hot/emitter.js] (webpack)/hot/emitter.js 77 bytes {main} [built]
+[./node_modules/webpack/hot/log-apply-result.js] (webpack)/hot/log-apply-result.js 1.31 KiB {main} [built]
+[./node_modules/webpack/hot/log.js] (webpack)/hot/log.js 1.03 KiB {main} [built]
+[./src/index.js] 4.98 KiB {main} [built]
+    + 191 hidden modules
+i ｢wdm｣: Compiled successfully.
+Terminate batch job (Y/N)? y
+PS C:\Users\vamshi\Desktop\App> npm start
+
+> minimal-react-webpack-babel-setup@1.0.0 start C:\Users\vamshi\Desktop\App
+> webpack-dev-server --config ./webpack.config.js --mode development
+
+(node:4036) DeprecationWarning: Tapable.plugin is deprecated. Use new API on `.hooks` instead
+i ｢wds｣: Project is running at http://localhost:8080/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: Content not from webpack is served from ./dist
+i ｢wdm｣: Hash: 0721e9344209d6ab1ef2
+Version: webpack 4.0.1
+Time: 15867ms
+Built at: 2018-3-25 20:50:36
+    Asset      Size  Chunks                    Chunk Names
+bundle.js  1.18 MiB    main  [emitted]  [big]  main
+Entrypoint main [big] = bundle.js
+[./node_modules/loglevel/lib/loglevel.js] 7.68 KiB {main} [built]
+[./node_modules/react-hot-loader/lib/patch.js] 209 bytes {main} [built]
+[./node_modules/react-hot-loader/patch.js] 40 bytes {main} [built]
+[./node_modules/react/index.js] 190 bytes {main} [built]
+[./node_modules/strip-ansi/index.js] 161 bytes {main} [built]
+[./node_modules/url/url.js] 22.8 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:8080] (webpack)-dev-server/client?http://localhost:8080 7.75
+KiB {main} [built]
+[./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.05 KiB {main} [built]
+   [0] multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server react-hot-loader/patch ./src/index.js 64 bytes {main} [built]
+[./node_modules/webpack/hot sync ^\.\/log$] (webpack)/hot sync nonrecursive ^\.\/log$ 170 bytes {main} [built]
+[./node_modules/webpack/hot/dev-server.js] (webpack)/hot/dev-server.js 1.66 KiB {main} [built]
+[./node_modules/webpack/hot/emitter.js] (webpack)/hot/emitter.js 77 bytes {main} [built]
+[./node_modules/webpack/hot/log-apply-result.js] (webpack)/hot/log-apply-result.js 1.31 KiB {main} [built]
+[./node_modules/webpack/hot/log.js] (webpack)/hot/log.js 1.03 KiB {main} [built]
+[./src/index.js] 4.98 KiB {main} [built]
+    + 191 hidden modules
+i ｢wdm｣: Compiled successfully.
+Terminate batch job (Y/N)? y
+PS C:\Users\vamshi\Desktop\App> npm start
+
+> minimal-react-webpack-babel-setup@1.0.0 start C:\Users\vamshi\Desktop\App
+> webpack-dev-server --config ./webpack.config.js --mode development
+
+(node:5804) DeprecationWarning: Tapable.plugin is deprecated. Use new API on `.hooks` instead
+i ｢wds｣: Project is running at http://localhost:8080/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: Content not from webpack is served from ./dist
+i ｢wdm｣: wait until bundle finished: /
+i ｢wdm｣: Hash: 0721e9344209d6ab1ef2
+Version: webpack 4.0.1
+Time: 16909ms
+Built at: 2018-3-25 20:51:49
+    Asset      Size  Chunks                    Chunk Names
+bundle.js  1.18 MiB    main  [emitted]  [big]  main
+Entrypoint main [big] = bundle.js
+[./node_modules/loglevel/lib/loglevel.js] 7.68 KiB {main} [built]
+[./node_modules/react-hot-loader/lib/patch.js] 209 bytes {main} [built]
+[./node_modules/react-hot-loader/patch.js] 40 bytes {main} [built]
+[./node_modules/react/index.js] 190 bytes {main} [built]
+[./node_modules/strip-ansi/index.js] 161 bytes {main} [built]
+[./node_modules/url/url.js] 22.8 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:8080] (webpack)-dev-server/client?http://localhost:8080 7.75 KiB {main} [built]
+KiB {main} [built]
+[./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.05 KiB {main} [built]               tes {main} [built]
+   [0] multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server react-hot-loader/patch ./src/index.js 64 bytes {main} [built]
+[./node_modules/webpack/hot sync ^\.\/log$] (webpack)/hot sync nonrecursive ^\.\/log$ 170 bytes {main} [built]
+[./node_modules/webpack/hot/dev-server.js] (webpack)/hot/dev-server.js 1.66 KiB {main} [built]
+[./node_modules/webpack/hot/emitter.js] (webpack)/hot/emitter.js 77 bytes {main} [built]
+[./node_modules/webpack/hot/log-apply-result.js] (webpack)/hot/log-apply-result.js 1.31 KiB {main} [built]
+[./node_modules/webpack/hot/log.js] (webpack)/hot/log.js 1.03 KiB {main} [built]
+[./src/index.js] 4.98 KiB {main} [built]
+    + 191 hidden modules
+i ｢wdm｣: Compiled successfully.
+Terminate batch job (Y/N)? y
+PS C:\Users\vamshi\Desktop\App> git remote add ReactTicker https://github.com/vwtt/ReactTicker.git
+PS C:\Users\vamshi\Desktop\App>
